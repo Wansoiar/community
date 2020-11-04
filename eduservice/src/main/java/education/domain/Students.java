@@ -15,6 +15,7 @@ public class Students {
     private String stuEmail;//邮箱
 
     public Students() {
+
     }
 
     public Students(int stuId, String stuNum, String stuName, String stuPassword, String stuSex, String stuPhone, String stuAddress, String stuEmail) {
