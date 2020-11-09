@@ -8,9 +8,40 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>左边菜单栏</title>
+    <link href="../../resources/css/style.css" rel="stylesheet" type="text/css" />
+    <script language="JavaScript" src="../../resources/js/jquery.js"></script>
 </head>
-<body>
+<body style="background:#f0f9fd;">
+<div class="lefttop"><span></span>系统菜单</div>
+<dl class="leftmenu">
+    <dd>
+        <div class="title">
+            <span><img src="../../resources/images/admin/leftico01.png" /></span>管理中心
+        </div>
+        <ul class="menuson">
+            <li class="active"><cite></cite><a href="${ctx}/admin" target="rightFrame">角色管理</a><i></i></li>
+            <li><cite></cite><a href="${ctx}/queryStuInf" target="rightFrame">学生管理</a><i></i></li>
+            <li><cite></cite><a href="${ctx}/queryCommentInfMG" target="rightFrame">留言管理</a><i></i></li>
+            <li><cite></cite><a href="${ctx}/notice/queryNotice" target="rightFrame">公告管理</a><i></i></li>
+        </ul>
+        <div class="title">
+            <span><img src="../../resources/images/admin/leftico01.png" /></span>资源管理
+        </div>
+        <ul class="menuson">
+            <li class="active"><cite></cite><a href="${ctx}/queryData" target="rightFrame">资料管理</a><i></i></li>
+            <li><cite></cite><a href="${ctx}/onlinelibrary" target="rightFrame">题库管理</a><i></i></li>
+            <li><cite></cite><a href="${ctx}/vediou_mng" target="rightFrame">视频管理</a><i></i></li>
+        </ul>
+        <div class="title">
+            <span><img src="../../resources/images/admin/leftico01.png" /></span>日志管理
+        </div>
+        <ul class="menuson">
+            <li class="active"><cite></cite><a href="${ctx}/listLog" target="rightFrame">日志管理</a><i></i></li>
+        </ul>
+    </dd>
+
+</dl>
 
 </body>
 </html>
