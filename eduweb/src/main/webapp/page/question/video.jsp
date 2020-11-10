@@ -21,21 +21,21 @@
         a{
             text-decoration: none;
         }
-        .nav{
+        .nav1{
             height: 50px;
             background-color: deepskyblue;
             margin-top: 50px;
         }
-        .wrapper{
+        .wrapper1{
             /*height: 40px;*/
             width: 800px;
             /*background-color: pink;*/
             margin: 0 auto;
         }
-        ul li{
+        .wrapper1 ul li{
             float: left;
         }
-        .nav a{
+        .nav1 a{
             display: block;
             /*background-color: cornflowerblue;*/
             height: 40px;
@@ -43,7 +43,7 @@
             color: #ffffff;
             padding: 0 15px;
         }
-        li{
+        .nav1 li{
             padding: 0 10px;
         }
         .first, a:hover{
@@ -57,8 +57,8 @@
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="nav">
-    <div class="wrapper">
+<div class="nav1">
+    <div class="wrapper1">
         <ul>
             <li class="first"><a href="#" >首页</a></li>
             <li><a href="#">学生简章</a></li>
@@ -83,7 +83,57 @@
         </script>--%>
     </div>
 </div>
-
+<div class="container-fluid">
+    <div class="row clearfix">
+        <div class="span12">
+            <div class="carousel slide" id="carousel-128450">
+                <ol class="carousel-indicators">
+                    <li data-slide-to="0" data-target="#carousel-128450">
+                    </li>
+                    <li data-slide-to="1" data-target="#carousel-128450" class="active">
+                    </li>
+                    <li data-slide-to="2" data-target="#carousel-128450">
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img alt="" src="../../resources/images/3.png" />
+                        <div class="carousel-caption">
+                            <h4>
+                                First Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item active">
+                        <img alt="" src="../../resources/images/2.png" />
+                        <div class="carousel-caption">
+                            <h4>
+                                Second Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="" src="../../resources/images/2.png" />
+                        <div class="carousel-caption">
+                            <h4>
+                                Third Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                </div> <a class="left carousel-control" href="#carousel-128450" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-128450" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
