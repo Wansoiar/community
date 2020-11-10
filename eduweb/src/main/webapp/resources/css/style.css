@@ -39,3 +39,23 @@ h2{font-weight:normal;}
 .menuson li.active i{display:block; background:url(../images/admin/sj.png) no-repeat; width:6px; height:11px; position:absolute; right:0;z-index:10000; top:9px; right:-1px;}
 .menuson li a{ display:block; *display:inline; *padding-top:5px;}
 .menuson li.active a{color:#fff;}
+
+
+/*
+person img*/
+.personalImg{
+    display:inline-block;
+    margin:5px 35px;
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border:2px solid #fff;
+    box-shadow:0 0 4px #ccc;
+    overflow:hidden;
+}
+.personalImg img{
+    width:100%;
+    min-height:100%;
+}
