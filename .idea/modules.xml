@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BigProject.iml" filepath="$PROJECT_DIR$/BigProject.iml" />
+      <module fileurl="file://E:\IDEA\education\education\BigProject.iml" filepath="E:\IDEA\education\education\BigProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/eduservice/eduservice.iml" filepath="$PROJECT_DIR$/eduservice/eduservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/eduweb/eduweb.iml" filepath="$PROJECT_DIR$/eduweb/eduweb.iml" />
     </modules>

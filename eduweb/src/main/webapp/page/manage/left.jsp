@@ -10,7 +10,26 @@
 <head>
     <title>左边菜单栏</title>
     <link href="../../resources/css/style.css" rel="stylesheet" type="text/css" />
-    <script language="JavaScript" src="../../resources/js/jquery.js"></script>
+    <script language="JavaScript" src="../../resources/js/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            //导航切换
+            $(".menuson li").click(function(){
+                $(".menuson li.active").removeClass("active");
+                $(this).addClass("active");
+            });
+
+            $('.title').click(function(){
+                var $ul = $(this).next('ul');
+                $('dd').find('ul').slideUp();
+                if($ul.is(':visible')){
+                    $(this).next('ul').slideUp();
+                }else{
+                    $(this).next('ul').slideDown();
+                }
+            });
+        });
+    </script>
 </head>
 <body style="background:#f0f9fd;">
 <div class="lefttop"><span></span>系统菜单</div>
@@ -18,6 +37,7 @@
     <dd>
         <div class="title">
             <span><img src="../../resources/images/admin/leftico01.png" /></span>管理中心
+
         </div>
         <ul class="menuson">
             <li class="active"><cite></cite><a href="${ctx}/admin" target="rightFrame">角色管理</a><i></i></li>

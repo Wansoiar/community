@@ -10,7 +10,7 @@
 <head>
 
     <link href="../../resources/css/style.css" rel="stylesheet" type="text/css" />
-    <script language="JavaScript" src="../../resources/js/jquery.js"></script>
+    <script language="JavaScript" src="../../resources/js/jquery-3.4.1.js"></script>
 </head>
 <body style="background:url('../../resources/images/admin/topbg.gif') repeat-x;">
     <div class="topleft">
