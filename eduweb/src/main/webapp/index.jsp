@@ -7,5 +7,6 @@
 <h2>Hello World!</h2>
     <button><a href="${pageContext.request.contextPath}/page/manage/admin.jsp">跳转到后台</a></button>
 <button><a href="${pageContext.request.contextPath}/page/question/video.jsp">跳转主页</a></button>
+<button><a href="${pageContext.request.contextPath}/page/community/community.jsp">跳转社区</a></button>
 </body>
 </html>
